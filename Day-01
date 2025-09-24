@@ -1,4 +1,39 @@
-## 1. Introduction to iverilog, Design and Testbench
+# Open-Source Simulator Verilog
 
-#Simulator - RTL design is checked for adherence to the spe by simulating the design. Simulator is the tool used for simulating the design.
-- iverilog is the tool used in this course
+## 1. Introduction to Open-Source Simulator Verilog
+
+### 1.1 Introduction to Icarus Verilog (iverilog), Design and Testbench
+
+**Simulator** - RTL design is checked for adherence to the spec by simulating the design. Simulator is the tool used for simulating the design.  
+- *iverilog* is the tool used in this course.
+
+**Design** - Design is the actual Verilog code or set of Verilog codes which has the intended functionality to meet the required specifications.
+
+**Testbench** - Testbench is the setup to apply stimulus (test_vector) to the design to check its functionality.
+
+**How simulator works?**  
+- Simulator looks for changes on the input signals.  
+- Upon change to the input, the output is evaluated.  
+- If no changes to the input, no change to the output!  
+- Simulator is looking for changes in the values of input.
+
+**Note:**  
+- Design may have one or more primary inputs, one or more primary outputs.  
+- Testbench doesn’t have a primary input or primary outputs.
+
+**Iverilog based simulation flow**  
+
+*(You can add your simulation flow diagram or steps here)*
+
+### 1.2 Introduction to Yosys
+
+**Synthesizer** - Tool used for converting the RTL to netlist.  
+- *Yosys* is the synthesizer used in this course.
+
+**Verify the synthesis**  
+
+**Note:**  
+- The set of primary inputs / primary outputs will remain same between the RTL design and synthesized netlist.  
+- The same testbench can be used!
+
+
