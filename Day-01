@@ -1,0 +1,4 @@
+## 1. Introduction to iverilog, Design and Testbench
+
+#Simulator - RTL design is checked for adherence to the spe by simulating the design. Simulator is the tool used for simulating the design.
+- iverilog is the tool used in this course
