@@ -124,6 +124,9 @@ Step 7: View the schematic
 show multiple_modules
 ```
 
+<img width="1280" height="542" alt="image" src="https://github.com/user-attachments/assets/0d4d247c-a2b5-4b15-9ad3-c2b583848b12" />
+
+
 ## 1.3 Various Flop Coding Styles and Optimization
 
 WHY FLOP?
@@ -188,6 +191,9 @@ Step 3: gtkwave view waveform
 gtkwave tb_dff_asyncres.vcd
 ```
 
+![WhatsApp Image 2025-09-26 at 3 30 06 AM](https://github.com/user-attachments/assets/a6370f46-8941-41eb-8b3a-7879fac3bc25)
+
+
 Synthesis with Yosys
 
 Step 1: Invoke Yosys
@@ -232,9 +238,24 @@ Step 7: View the schematic
 show
 ```
 
+![WhatsApp Image 2025-09-26 at 3 30 05 AM](https://github.com/user-attachments/assets/92c6947b-93f0-4c83-9467-bab8cdce208a)
+
+
 # dff_async_set.v as DUT
 
+![WhatsApp Image 2025-09-26 at 3 30 04 AM](https://github.com/user-attachments/assets/f9bbb226-bc01-4c0b-8f85-a1ef8c973e1f)
+
+![WhatsApp Image 2025-09-26 at 3 30 03 AM](https://github.com/user-attachments/assets/c3216d9a-c924-4cd5-b49e-7059988aefe1)
+
+
 # dff_syncres.v as DUT
+
+
+![WhatsApp Image 2025-09-26 at 3 30 02 AM](https://github.com/user-attachments/assets/6dc3a9cb-463a-4311-bdc7-0fd16d06ec5f)
+
+
+<img width="1280" height="583" alt="image" src="https://github.com/user-attachments/assets/8a515139-0fc4-4763-8f49-bef01d01e858" />
+
 
 
 
