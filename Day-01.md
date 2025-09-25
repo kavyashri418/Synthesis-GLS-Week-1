@@ -113,6 +113,8 @@ Step 1: Navigate to verilog_files folder
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
 
+
+
 Step 2: Design simulation
 
 - We are using good_mux.v DUT file for sumulation.
@@ -150,6 +152,9 @@ Step 1: Open Yosys
 yosys
 ```
 
+![WhatsApp Image 2025-09-26 at 3 30 10 AM](https://github.com/user-attachments/assets/d2abe1b6-ec7e-4992-9a65-ab86d415865c)
+
+
 Step 2: Load standerd cell library
 
 ```bash
@@ -185,6 +190,7 @@ Step 7: View the Schematic
 ```bash
 show
 ```
+![WhatsApp Image 2025-09-26 at 3 30 07 AM](https://github.com/user-attachments/assets/4a468f0b-b3fa-4408-8019-ed14fabd9d2a)
 
 
 
