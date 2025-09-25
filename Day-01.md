@@ -101,7 +101,7 @@
 
 **The guidance offered to the synthesizer → "constraints"**
 
-### LAB -01 Introduction to iverilog Design Testbench
+### LAB - 01 Introduction to iverilog Design Testbench
 
 ## Simulation of 2:1 Multiplexer
 
@@ -133,18 +133,64 @@ To run simulation
 ./a.out
 ```
 
-### LAB -02 Introduction to iverilog gtkwave
+### LAB - 02 Introduction to iverilog gtkwave
 
-step 3: Open gtkwave to view waveform
+Step 1: Open gtkwave to view waveform
 
 ```bash
 gtkwave tb_good_mux.vcd
 ```
-Step 4: Launches the graphical version of Vim
+Step 2: Launches the graphical version of Vim
 
 ```bash
 gvim tb_good_mux.v -o good_mux.v
 ```
+
+### LAB - 03 Introduction to Yosys and sky130 PDKs
+
+Step 1: Open Yosys
+
+```bash
+yosys
+```
+
+Step 2: Load standerd cell library
+
+```bash
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  //use path to locate sky130_fd_sc_hd__tt_025C_1v80.lib file
+```
+
+Step 3: Read verilog design
+
+```bash
+read_verilog good_mux.v //Loads your HDL design
+```
+
+Step 4: Define the top Module
+
+```bash
+synth -top good_mux  //Synthesize your RTL into generic gate
+```
+
+Step 5: Invoke abc synthesis and optimization tool
+
+```bash
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+Step 6: Gate-Level Netlist
+
+```bash
+write_verilog good_mux_netlist.v
+```
+
+Step 7: View the Schematic
+
+```bash
+show
+```
+
+
 
 
 
