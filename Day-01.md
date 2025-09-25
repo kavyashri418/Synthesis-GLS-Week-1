@@ -113,6 +113,7 @@ Step 1: Navigate to verilog_files folder
 cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 ```
 
+<img width="1213" height="420" alt="image" src="https://github.com/user-attachments/assets/8f77d43b-c680-4f90-8296-6ddbc4349c46" />
 
 
 Step 2: Design simulation
@@ -143,6 +144,10 @@ Step 2: Launches the graphical version of Vim
 ```bash
 gvim tb_good_mux.v -o good_mux.v
 ```
+
+<img width="1219" height="319" alt="image" src="https://github.com/user-attachments/assets/3450e396-382c-4d22-9467-5bdd677af00a" />
+
+<img width="1219" height="525" alt="image" src="https://github.com/user-attachments/assets/c281fd62-26ac-4f0b-b67c-160ca53ed73f" />
 
 ### LAB - 03 Introduction to Yosys and sky130 PDKs
 
@@ -190,6 +195,7 @@ Step 7: View the Schematic
 ```bash
 show
 ```
+
 ![WhatsApp Image 2025-09-26 at 3 30 07 AM](https://github.com/user-attachments/assets/4a468f0b-b3fa-4408-8019-ed14fabd9d2a)
 
 
