@@ -101,3 +101,51 @@
 
 **The guidance offered to the synthesizer → "constraints"**
 
+### LAB -01 Introduction to iverilog Design Testbench
+
+## Simulation of 2:1 Multiplexer
+
+Clone the repository
+
+```bash
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+```
+
+Step 1: Navigate to verilog_files folder
+
+```bash
+cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
+```
+
+Step 2: Design simulation
+
+- We are using good_mux.v DUT file for sumulation.
+- tb_good_mux.v is the testbench file.
+- To compile Design and Testbench use
+
+```bash
+iverilog good_mux.v tb_good_mux.v
+```
+
+To run simulation 
+
+```bash
+./a.out
+```
+
+### LAB -02 Introduction to iverilog gtkwave
+
+step 3: Open gtkwave to view waveform
+
+```bash
+gtkwave tb_good_mux.vcd
+```
+Step 4: Launches the graphical version of Vim
+
+```bash
+gvim tb_good_mux.v -o good_mux.v
+```
+
+
+
+
