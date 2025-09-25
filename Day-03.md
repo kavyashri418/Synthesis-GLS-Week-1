@@ -105,9 +105,19 @@ Step 7: View the schematic
 show
 ```
 
+![WhatsApp Image 2025-09-26 at 3 30 00 AM](https://github.com/user-attachments/assets/bd608826-db98-436d-ab06-966532545e5b)
+
+
 opt_check2.v
 
+
+![WhatsApp Image 2025-09-26 at 3 29 59 AM](https://github.com/user-attachments/assets/bc42de47-3822-4b67-a18c-9df68f74e435)
+
+
 opt_check3.v
+
+![WhatsApp Image 2025-09-26 at 3 29 58 AM](https://github.com/user-attachments/assets/6fc0d437-6ecc-4c4a-a475-5eb2bfc35e8e)
+
 
 Simulation for multiple_module_opt.v
 
@@ -159,6 +169,9 @@ Step 8: View the schematic
 show
 ```
 
+![WhatsApp Image 2025-09-26 at 3 29 57 AM (1)](https://github.com/user-attachments/assets/cedff470-9a60-4a47-9e7d-5ff74bdecccc)
+
+
 ## LAB - 07 Sequential Logic Optimisation
 
 Simulation
@@ -180,6 +193,9 @@ Step 3: gtkwave view waveform
 ```bash
 gtkwave tb_dff_const1.vcd
 ```
+
+![WhatsApp Image 2025-09-26 at 3 29 57 AM](https://github.com/user-attachments/assets/6395be2c-9e40-4a88-9203-bb1b9c6aa3b5)
+
 
 Synthesis with Yosys
 
@@ -225,9 +241,26 @@ Step 7: View the schematic
 show
 ```
 
+![WhatsApp Image 2025-09-26 at 3 29 56 AM](https://github.com/user-attachments/assets/18097ba6-59e7-48e3-a2d2-6dfbff3bff3b)
+
+
 # dff_const2.v
 
+
+![WhatsApp Image 2025-09-26 at 3 29 55 AM](https://github.com/user-attachments/assets/2b09e2f5-0769-48c0-95a4-940668c85de7)
+
+
+![WhatsApp Image 2025-09-26 at 3 29 54 AM](https://github.com/user-attachments/assets/8a1358c2-78c7-464a-8e33-36408feab4fd)
+
+
 # dff_const3.v
+
+
+![WhatsApp Image 2025-09-26 at 3 29 52 AM](https://github.com/user-attachments/assets/4f851768-86ee-41c8-a2b2-e1825c78a21d)
+
+
+![WhatsApp Image 2025-09-26 at 3 29 51 AM](https://github.com/user-attachments/assets/9f0b333b-fabe-4fe1-908d-7bc0b7374d7e)
+
 
 # 3.4 Sequential Optimisation for Unused Outputs
 
@@ -254,6 +287,10 @@ Step 3: gtkwave view waveform
 ```bash
 gtkwave tb_counter_opt.vcd
 ```
+
+
+![WhatsApp Image 2025-09-26 at 3 29 49 AM](https://github.com/user-attachments/assets/0dbd5eb0-b406-446d-a8c7-779e1ab6ec99)
+
 
 Synthesis with Yosys
 
@@ -298,6 +335,9 @@ Step 7: View the schematic
 ```bash
 show
 ```
+
+![WhatsApp Image 2025-09-26 at 3 29 48 AM](https://github.com/user-attachments/assets/e9a9e2bc-6be6-4e8d-9137-eba009166388)
+
 
 Simulation
 
