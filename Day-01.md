@@ -1,7 +1,3 @@
-# Open-Source Simulator Verilog
-
-## 1. Introduction to Open-Source Simulator Verilog
-
 ### 1.1 Introduction to Icarus Verilog (iverilog), Design and Testbench
 
 **Simulator** - RTL design is checked for adherence to the spec by simulating the design. Simulator is the tool used for simulating the design.  
