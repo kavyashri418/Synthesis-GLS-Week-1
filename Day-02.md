@@ -155,7 +155,7 @@ module dff_async_set (input clk, input async_set, input d, output reg q);
 endmodule
 ```
 
--Synchronous ReSet: the flip-flop output Q = 0, but only on the active clock edge. The reset signal is sampled at the clock edge — if asserted, the flop outputs 0 at that edge
+- Synchronous ReSet: the flip-flop output Q = 0, but only on the active clock edge. The reset signal is sampled at the clock edge — if asserted, the flop outputs 0 at that edge
  Synchronous Set D Flip Flop
 
  ```bash
