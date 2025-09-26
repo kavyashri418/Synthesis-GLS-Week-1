@@ -1,6 +1,6 @@
-# 1 Timing libs, Hierarchical vs flat synthesis and efficient flop coding types
+# 2 Timing libs, Hierarchical vs flat synthesis and efficient flop coding types
 
-## 1.1 Introduction to timing.libs
+## 2.1 Introduction to timing.libs
 
 A timing library (usually with extension .lib, often called a Liberty file) is a standard cell characterization file used in digital design.
 It describes the electrical, functional, and timing behavior of each cell in a given standard cell library under specific process-voltage-temperature (PVT) conditions.
@@ -18,7 +18,7 @@ Step 2: Open sky130_fd_sc_hd__tt_025C_1v80.lib
 ```bash
 gvim sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-## 1.2 Hierarchical vs Flat Synthesis
+## 2.2 Hierarchical vs Flat Synthesis
 
 HIERARCHICAL SYNTHESIS: in hierarchical synthesis, the RTL design is synthesized block by block (module by module) instead of flattening everything into a single netlist.Each block is optimized independently, and then the blocks are connected together at the top level.
 
@@ -127,7 +127,7 @@ show multiple_modules
 <img width="1280" height="542" alt="image" src="https://github.com/user-attachments/assets/0d4d247c-a2b5-4b15-9ad3-c2b583848b12" />
 
 
-## 1.3 Various Flop Coding Styles and Optimization
+## 2.3 Various Flop Coding Styles and Optimization
 
 WHY FLOP?
 A flip-flop (DFF, register) is a sequential element that stores data on a clock edge.In RTL coding, synthesis tools infer flops from always blocks with clock sensitivity.
@@ -173,6 +173,8 @@ endmodule
 
 ## LAB - 5.1 DFF
 
+Simulation
+
 Step 1: Compile Design and Testbench
 
 ```bash
@@ -205,13 +207,13 @@ yosys
 Step 2: read_liberty standard library
 
 ```bash
-read_liberty -lib /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty ../lib/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
 Step 3: Read verilog design
 
 ```bash
-read_verilog /path/to/dff_asyncres.v
+read_verilog dff_asyncres.v
 ```
 
 Step 4: Define the top Module
@@ -223,13 +225,13 @@ synth -top dff_asyncres
 Step 5: Mapping flip flop
 
 ```bash
-dfflibmap -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 6: abd logic synthesis
+Step 6: abc logic synthesis
 
 ```bash
-abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 ```
 
 Step 7: View the schematic
