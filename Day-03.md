@@ -1,6 +1,6 @@
-## 3 Combinational and Sequential Optimizations
+# 3 Combinational and Sequential Optimizations
 
-# 3.1 Introduction to Optimization
+## 3.1 Introduction to Optimization
 Optimization in design means transforming logic/netlists into more efficient implementations without changing functionality.
 
 - Area minimization (fewer gates, smaller die size).
@@ -8,7 +8,7 @@ Optimization in design means transforming logic/netlists into more efficient imp
 - Performance improvement (higher speed, meet timing).
 - Testability and reliability (support DFT, reduce critical paths).
 
-# 3.2 Combinational Logic Optimization
+## 3.2 Combinational Logic Optimization
 
 Works on pure logic (no flops).
 
@@ -18,7 +18,7 @@ Constant propagation is a combinational logic optimization technique where signa
 ## Boolean Logic Propagation
 Boolean logic propagation is a combinational optimization technique where known logical relationships are used to simplify expressions and eliminate redundant logic. It leverages Boolean algebra rules to optimize circuits.
 
-# 3.3 Sequential Logic Optimization
+## 3.3 Sequential Logic Optimization
 
 Works on designs with flip-flops / registers.
 
@@ -93,7 +93,7 @@ Step 5: Mapping flip flop
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 6: abd logic synthesis
+Step 6: abc logic synthesis
 
 ```bash
   abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -157,7 +157,7 @@ Step 6: Logic synthesis
 opt_clean -purge
 ```
 
-Step 7: abd logic synthesis
+Step 7: abc logic synthesis
 
 ```bash
   abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -229,7 +229,7 @@ Step 5: Mapping flip flop
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 6: abd logic synthesis
+Step 6: abc logic synthesis
 
 ```bash
   abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -262,7 +262,7 @@ show
 ![WhatsApp Image 2025-09-26 at 3 29 51 AM](https://github.com/user-attachments/assets/9f0b333b-fabe-4fe1-908d-7bc0b7374d7e)
 
 
-# 3.4 Sequential Optimisation for Unused Outputs
+## 3.4 Sequential Optimisation for Unused Outputs
 
 Sequential Optimization for Unused Outputs is a technique used in digital design synthesis to simplify and optimize circuits by analyzing sequential elements (like flip-flops) whose outputs are not contributing to the final design outputs.
 
@@ -324,7 +324,7 @@ Step 5: Mapping flip flop
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 6: abd logic synthesis
+Step 6: abc logic synthesis
 
 ```bash
   abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -391,7 +391,7 @@ Step 5: Mapping flip flop
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-Step 6: abd logic synthesis
+Step 6: abc logic synthesis
 
 ```bash
   abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
