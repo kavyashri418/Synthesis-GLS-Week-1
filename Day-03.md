@@ -12,26 +12,26 @@ Optimization in design means transforming logic/netlists into more efficient imp
 
 Works on pure logic (no flops).
 
-## Constant Propagation
+### Constant Propagation
 Constant propagation is a combinational logic optimization technique where signals or expressions that are known to have constant values are replaced with those constants throughout the logic. This reduces unnecessary logic and can simplify circuits.
 
-## Boolean Logic Propagation
+### Boolean Logic Propagation
 Boolean logic propagation is a combinational optimization technique where known logical relationships are used to simplify expressions and eliminate redundant logic. It leverages Boolean algebra rules to optimize circuits.
 
 ## 3.3 Sequential Logic Optimization
 
 Works on designs with flip-flops / registers.
 
-## State Optimization
+### State Optimization
 State optimization is a sequential logic optimization technique aimed at reducing the number of states in a finite state machine (FSM) without changing its functional behavior. Fewer states mean simpler logic for next-state and output functions, leading to reduced area, power, and potentially faster timing.
 
-## Retiming
+### Retiming
 Retiming is a sequential optimization technique where registers (flip-flops) in a circuit are repositioned across combinational logic to improve timing performance, area, or power without changing the functional behavior of the circuit.
 
-## Sequential Logic Cloning
+### Sequential Logic Cloning
 Sequential logic cloning is a sequential optimization technique where parts of combinational logic between registers are duplicated (cloned) to reduce fan-out, improve timing, or optimize physical placement, without changing the circuit’s functional behavior.
 
-# Combinational vs Sequential Optimization
+### Combinational vs Sequential Optimization
 
 | Aspect         | Combinational Optimization             | Sequential Optimization                    |
 |----------------|--------------------------------------|--------------------------------------------|
@@ -336,8 +336,7 @@ Step 7: View the schematic
 show
 ```
 
-![WhatsApp Image 2025-09-26 at 3 29 48 AM](https://github.com/user-attachments/assets/e9a9e2bc-6be6-4e8d-9137-eba009166388)
-
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/adb9f08c-bd0a-4d8d-83ca-2d5af9049e47" />
 
 Simulation
 
@@ -403,6 +402,7 @@ Step 7: View the schematic
 show
 ```
 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a62c0ed-0253-41b6-87c1-6510b22ce9db" />
 
 
 
