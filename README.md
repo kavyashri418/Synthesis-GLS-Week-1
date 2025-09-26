@@ -1,8 +1,5 @@
 # Synthesis and GLS
-
-### Welcome to the 5-Day RTL Design and Synthesis Workshop. This repository explores the fundamentals and advanced concepts of digital design, synthesis, and gate-level simulation (GLS). Across five days, we will learn to write efficient, synthesizable Verilog, simulate designs, optimize for area, power, and timing, and handle synthesis-simulation mismatches. 
-
-
+Welcome to the 5-Day RTL Design and Synthesis Workshop. This repository explores the fundamentals and advanced concepts of digital design, synthesis, and gate-level simulation (GLS). Across five days, we will learn to write efficient, synthesizable Verilog, simulate designs, optimize for area, power, and timing, and handle synthesis-simulation mismatches.
 ## Day 1 – Introduction to Icarus Verilog (iverilog), Design and Testbench
 
 Learned to use **Icarus Verilog (iverilog)** for writing design modules and testbenches, simulating and verifying their functionality.
@@ -55,3 +52,14 @@ Advanced optimization techniques to improve **performance, area, and power** in 
 - Combinational and sequential logic optimizations
 - Writing efficient, synthesizable Verilog
 - Trade-offs in synthesis for high-performance designs
+
+## 📈 Daily Progress Tracker
+
+| Day | Focus Topic | Status |
+| :--- | :--- | :--- |
+| **Day 1** | [Introduction to Icarus Verilog (iverilog), Design and Testbench](./Day%201) | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
+| **Day 2** | [Timing Libraries, Hierarchical vs Flat Synthesis, Efficient Flop Coding Types](./Day%201) | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
+| **Day 3** | [Combinational and Sequential Optimizations](./Day%201) | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
+| **Day 4** | [GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatches](./Day%201)| ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)  |
+| **Day 5** | [Optimization in Synthesis](./Day%201) | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
+
