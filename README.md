@@ -63,3 +63,11 @@ Advanced optimization techniques to improve **performance, area, and power** in 
 | **Day 4** | GLS, Blocking vs Non-Blocking, and Synthesis-Simulation Mismatches | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)  |
 | **Day 5** | Optimization in Synthesis | ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge) |
 
+## 🙏 Acknowledgment
+
+I am sincerely grateful to [**Kunal Ghosh**](https://github.com/kunalg123) and the entire  **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** team for this incredible opportunity to participate in the RISC-V SoC Tapeout Program and contribute to this nationwide initiative.
+
+---
+
+
+
