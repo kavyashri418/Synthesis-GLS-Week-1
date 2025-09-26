@@ -21,14 +21,25 @@
 - Design may have one or more primary inputs, one or more primary outputs.  
 - Testbench doesn’t have a primary input or primary outputs.
 
-**Iverilog based simulation flow**
+### Iverilog based simulation flow
 
-### 1.2 Introduction to Yosys
+
+<img width="3580" height="1441" alt="Screenshot 2025-09-26 230404" src="https://github.com/user-attachments/assets/cb2d347d-84bd-4f7f-b776-3a9dba530606" />
+
+
+## 1.2 Introduction to Yosys
 
 **Synthesizer** - Tool used for converting the RTL to netlist.  
 - *Yosys* is the synthesizer used in this course.
 
-**Verify the synthesis**  
+
+<img width="3728" height="1728" alt="Screenshot 2025-09-26 231216" src="https://github.com/user-attachments/assets/f68a3399-6b0c-4b18-a576-ee75819c4deb" />
+
+
+### Verify the synthesis  
+
+<img width="3622" height="1464" alt="Screenshot 2025-09-26 230556" src="https://github.com/user-attachments/assets/b2a2ef90-c221-48d0-9837-cbb35a9a82af" />
+
 
 **Note:**  
 - The set of primary inputs / primary outputs will remain same between the RTL design and synthesized netlist.  
