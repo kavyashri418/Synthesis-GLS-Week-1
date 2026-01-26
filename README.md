@@ -71,11 +71,6 @@ Advanced optimization techniques to improve **performance, area, and power** in 
 
 ---
 
-## 🙏 Acknowledgment
-
-I am sincerely grateful to [**Kunal Ghosh**](https://github.com/kunalg123) and the entire **[VLSI System Design (VSD)](https://vsdiat.vlsisystemdesign.com/)** team for this incredible opportunity to participate in the RISC-V SoC Tapeout Program and contribute to this nationwide initiative.
-
-
 
 
 
